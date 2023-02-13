@@ -1,0 +1,16 @@
+** interface in class
+  객체의 타입을 설명할때 사용
+  # 왜 필요할까?
+    interface 대신 type으로 사용할 수 있지만 차이가 있음
+      -interface는 객체의 구조를 정의 할때만 사용함.
+      -class 사용시 inplements 속성을 통해 재사용이 가능 interface가 구조를 지정함으로 interface에 기반하여 class 생성이 가능하다
+  extends를 통해 interface들을 확장하고 병합할 수 있음.
+
+** interface in function
+  interface AddFn {
+    (a: number, b: number): number;
+  }
+  let add = AddFn
+  add = (n1, n2) => {
+    return n1 + n2;
+  }
