@@ -1,2 +1,27 @@
 ** 자동 컴파일
   tsc "파일이름" --watch 
+  tsc --init
+
+** tsconfig 설정
+  include, exclude
+  target: 컴파일할 js 버전
+  lib: ts 브라우저에서 돌아가는데 필요한 기본 설정(dom API, console...)
+  allowJs: js파일의 에러를 알려줌(ts와 js 같이 사용할 때 설정)
+  sourceMap: 디버깅 도와줌
+  outFile: 
+  outDir:생성되는 파일의 위치를 설정할 수 있음
+  rootDir: 출력으로 포함 시키지 않을 폴더 지정
+  removeComments: ts파일의 주석들을 컴파일 시 삭제
+  noEmit: output 파일을 생성하지 않음
+  noEmitOnError: ts는 에러가 발생하더라도 컴파일을 통해 js파일을 생성함. 에러가 발생하더라도 실제 작동에 문제가 작동하지 않는 경우 해당 속성을 통해 문제 파일을 js파일로 생성하지 않음
+
+  //strict
+  strict: 각 옵션값을 on/off
+  noImplicitAny: 
+  strictNullChecks: querySelector처럼 잠재적으로 null 값을 가질 수 있는 경우를 알려줌
+  strictFunctionTypes: 
+  strictBindCallApply: 
+
+  //Additional Checks
+  noUnusedLocals, noUnusedParameters, noImplicitReturns: 선언은 되었지만 사용되지 않은 변수나 값들을 알려줌
+  
