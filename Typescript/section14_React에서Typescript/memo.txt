@@ -1,0 +1,10 @@
+React.FC (function component)
+  -> jsx를 return하기에 React.FC 타입을 가지는 것
+
+props 타입 명확히 하기
+  - <>안에 props구조 명시하기
+
+useRef
+  - useRef<HTMLInputElement>(null) (ref 사용시에는 current사용 해야함)
+
+패키지 타입 추가하기
