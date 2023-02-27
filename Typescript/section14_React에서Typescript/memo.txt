@@ -7,4 +7,4 @@ props 타입 명확히 하기
 useRef
   - useRef<HTMLInputElement>(null) (ref 사용시에는 current사용 해야함)
 
-패키지 타입 추가하기
+패키지 타입 추가하기(typescript)
